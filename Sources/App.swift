@@ -45,9 +45,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.statusItem = statusItem
 
         if let button = statusItem.button {
-            if let image = NSImage(systemSymbolName: "cup.and.saucer.fill", accessibilityDescription: "xxx") {
+            if let image = NSImage(named: NSImage.Name("MenuBarIcon")) {
                 image.isTemplate = true
+                image.size = NSSize(width: 20, height: 14)
                 button.image = image
+                button.imageScaling = .scaleNone
+                button.imagePosition = .imageOnly
             } else {
                 button.title = "xxx"
             }
