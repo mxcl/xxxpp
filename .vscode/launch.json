@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run teaBASE (Debug)",
+            "name": "Run xxx (Debug)",
             "type": "node-terminal",
             "request": "launch",
-            "preLaunchTask": "teaBASE: build",
-            "command": "${workspaceFolder}/DerivedData/Build/Products/Debug/teaRUN.app/Contents/MacOS/teaRUN",
+            "preLaunchTask": "xxx: build",
+            "command": "${workspaceFolder}/DerivedData/Build/Products/Debug/xxx.app/Contents/MacOS/xxx",
             "cwd": "${workspaceFolder}",
             "internalConsoleOptions": "neverOpen"
         }

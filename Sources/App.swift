@@ -45,11 +45,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.statusItem = statusItem
 
         if let button = statusItem.button {
-            if let image = NSImage(systemSymbolName: "cup.and.saucer.fill", accessibilityDescription: "teaBASE") {
+            if let image = NSImage(systemSymbolName: "cup.and.saucer.fill", accessibilityDescription: "xxx") {
                 image.isTemplate = true
                 button.image = image
             } else {
-                button.title = "tea"
+                button.title = "xxx"
             }
         }
 
@@ -114,10 +114,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let mainMenu = NSMenu(title: "MainMenu")
 
         // App submenu (kept minimal but avoids empty menu warnings)
-        let appMenuItem = NSMenuItem(title: "teaRUN", action: nil, keyEquivalent: "")
+        let appMenuItem = NSMenuItem(title: "xxx", action: nil, keyEquivalent: "")
         let appMenu = NSMenu()
         appMenu.addItem(
-            withTitle: "Quit teaRUN",
+            withTitle: "Quit xxx",
             action: #selector(NSApplication.terminate(_:)),
             keyEquivalent: "q"
         )

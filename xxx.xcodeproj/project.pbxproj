@@ -44,9 +44,9 @@
 		636F8E522E45061C00BD4256 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		636F8E562E4506D600BD4256 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		636F8E5A2E45092B00BD4256 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		63AB60322BB5DC4700254B65 /* teaRUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teaRUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AB60322BB5DC4700254B65 /* xxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xxx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB60392BB5DC4800254B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63AB603B2BB5DC4800254B65 /* teaRUN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = teaRUN.entitlements; sourceTree = "<group>"; };
+		63AB603B2BB5DC4800254B65 /* xxx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xxx.entitlements; sourceTree = "<group>"; };
 		63FA80012F7B1C1000A1B234 /* GlobalShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalShortcutManager.swift; sourceTree = "<group>"; };
 		63FA80032F7B1C1000A1B234 /* ShortcutCaptureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutCaptureTextField.swift; sourceTree = "<group>"; };
 		63FA80052F7B1C1000A1B234 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		63AB60332BB5DC4700254B65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63AB60322BB5DC4700254B65 /* teaRUN.app */,
+				63AB60322BB5DC4700254B65 /* xxx.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 				D4FE57E12FC8DCD8009F6AC1 /* SearchResultCellView.swift */,
 				D4FE57E22FC8DCD8009F6AC1 /* SearchResult+Presentation.swift */,
 				D4FE58042FC8E0E9009F6AC1 /* CommandMenuController.swift */,
-				63AB603B2BB5DC4800254B65 /* teaRUN.entitlements */,
+				63AB603B2BB5DC4800254B65 /* xxx.entitlements */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63AB60312BB5DC4700254B65 /* teaRUN */ = {
+		63AB60312BB5DC4700254B65 /* xxx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63AB60412BB5DC4800254B65 /* Build configuration list for PBXNativeTarget "teaRUN" */;
+			buildConfigurationList = 63AB60412BB5DC4800254B65 /* Build configuration list for PBXNativeTarget "xxx" */;
 			buildPhases = (
 				63AB602E2BB5DC4700254B65 /* Sources */,
 				63AB602F2BB5DC4700254B65 /* Frameworks */,
@@ -159,9 +159,9 @@
 			fileSystemSynchronizedGroups = (
 				639992162EB2670700013B06 /* Resources */,
 			);
-			name = teaRUN;
+			name = xxx;
 			productName = pkgx;
-			productReference = 63AB60322BB5DC4700254B65 /* teaRUN.app */;
+			productReference = 63AB60322BB5DC4700254B65 /* xxx.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 63AB602D2BB5DC4700254B65 /* Build configuration list for PBXProject "teaRUN" */;
+			buildConfigurationList = 63AB602D2BB5DC4700254B65 /* Build configuration list for PBXProject "xxx" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63AB60312BB5DC4700254B65 /* teaRUN */,
+				63AB60312BB5DC4700254B65 /* xxx */,
 			);
 		};
 /* End PBXProject section */
@@ -390,13 +390,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sources/teaRUN.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Sources/xxx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZU76A67LGU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sources/teaRUN-Info.plist";
+				INFOPLIST_FILE = "Sources/xxx-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -412,7 +412,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tea.BASEv2;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = macosx;
@@ -427,13 +427,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sources/teaRUN.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Sources/xxx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZU76A67LGU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sources/teaRUN-Info.plist";
+				INFOPLIST_FILE = "Sources/xxx-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -449,7 +449,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tea.BASEv2;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.xxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = macosx;
@@ -462,7 +462,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63AB602D2BB5DC4700254B65 /* Build configuration list for PBXProject "teaRUN" */ = {
+		63AB602D2BB5DC4700254B65 /* Build configuration list for PBXProject "xxx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63AB603F2BB5DC4800254B65 /* Debug */,
@@ -471,7 +471,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63AB60412BB5DC4800254B65 /* Build configuration list for PBXNativeTarget "teaRUN" */ = {
+		63AB60412BB5DC4800254B65 /* Build configuration list for PBXNativeTarget "xxx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63AB60422BB5DC4800254B65 /* Debug */,

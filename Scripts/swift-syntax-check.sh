@@ -7,8 +7,8 @@ PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 cd "${PROJECT_ROOT}"
 
 xcodebuild \
-  -project teaRUN.xcodeproj \
-  -scheme teaRUN \
+  -project xxx.xcodeproj \
+  -scheme xxx \
   -configuration Debug \
   -destination 'platform=macOS' \
   CODE_SIGNING_ALLOWED=NO \
